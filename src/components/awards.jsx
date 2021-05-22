@@ -12,8 +12,9 @@ render() {
     <ul className="fa-ul mb-0">
       <li>
         <span className="fa-li"><i className="fas fa-trophy text-warning" /></span>
-        Google Analytics Certified Developer
+        AWS Certified Cloud Practitioner
       </li>
+{/*
       <li>
         <span className="fa-li"><i className="fas fa-trophy text-warning" /></span>
         Mobile Web Specialist - Google Certification
@@ -48,6 +49,7 @@ render() {
         <sup>rd</sup>
         Place - James Buchanan High School - Hackathon 2005
       </li>
+*/}
     </ul>
   </div>
 </section>
