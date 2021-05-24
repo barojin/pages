@@ -11,36 +11,16 @@ render() {
       <h2 className="mb-5">Experience</h2>
       <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
         <div className="flex-grow-1">
-          <h3 className="mb-0">Senior Web Developer</h3>
-          <div className="subheading mb-3">Intelitec Solutions</div>
-          <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+          <h3 className="mb-0">Software Developer</h3>
+          <div className="subheading mb-3">GSCMS Inc, Seoul, South Korea</div>
+          <p>Create task automation(dynamic-link library, C\#, .NET) on Windows server with an open-source(selenium). The assembly reduced the time for the laborious task in the accounting dept, which manually fetched bank statements of various online banking services, from a few hours to a second, and released it to the production.</p>
+          <p>Build the test automation environment in various Operating Systems (OS) on VMware for operational acceptance and regression testing in an exploratory approach. The corner, critical, and custom cases by analyzing error logs and defects from the beta users are considered. It cut off the beta version error rate by 99%.</p>
+          <p>Create new UIs, modify legacy functions in the company’s Windows app made of C#, On Windows Server with Oracle SQL, create the documentation for the main program according to various clients' needs.</p>
+          <p>Build a responsive web page with AngularJS to support several dashboards in order to monitor server health and enable controlling the on-Premises service on the local server remotely for on-call team members.</p>
         </div>
-        <div className="flex-shrink-0"><span className="text-primary">March 2013 - Present</span></div>
-      </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Web Developer</h3>
-          <div className="subheading mb-3">Intelitec Solutions</div>
-          <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-        </div>
-        <div className="flex-shrink-0"><span className="text-primary">December 2011 - March 2013</span></div>
-      </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Junior Web Designer</h3>
-          <div className="subheading mb-3">Shout! Media Productions</div>
-          <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-        </div>
-        <div className="flex-shrink-0"><span className="text-primary">July 2010 - December 2011</span></div>
-      </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Web Design Intern</h3>
-          <div className="subheading mb-3">Shout! Media Productions</div>
-          <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-        </div>
-        <div className="flex-shrink-0"><span className="text-primary">September 2008 - June 2010</span></div>
-      </div>
+        <div className="flex-shrink-0"><span className="text-primary">Feburary 2017 - December 2018</span></div>
+      </div>      
+      
     </div>
   </section>
   <hr className="m-0" />

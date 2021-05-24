@@ -5,6 +5,8 @@ import Skills from './components/skills'
 import Interests from './components/interests'
 import Awards from './components/awards'
 import Nav from './components/nav'
+import Projects from './components/projects'
+
 function App() {
   return (  
     <div>
@@ -12,8 +14,9 @@ function App() {
         <div className="container-fluid p-0">
           <About></About>
           <Experience></Experience>
-          <Education></Education>
+          <Projects></Projects>
           <Skills></Skills>
+          <Education></Education>                  
           <Interests></Interests>
           <Awards></Awards>
         </div>
