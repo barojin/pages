@@ -9,7 +9,8 @@ render() {
       <section className="resume-section" id="projects">
         <div className="resume-section-content">
           <h2 className="mb-5">Projects</h2>
-<!--
+            
+{/* 
         <div className="d-flex flex-column flex-md-row justify-content-between">
             <div className="flex-grow-1">
               <h3 className="mb-0"><a className="social-icon" href="https://github.com/barojin/PTEMPI/blob/main/cpi.c"><i className="fab fa-github" /></a>
@@ -17,14 +18,16 @@ render() {
               <p> Brief</p>
             </div>
           </div>
--->            
+*/}           
             <div className="d-flex flex-column flex-md-row justify-content-between">
                 <div className="flex-grow-1">
                     <h3 className="mb-0">
                         <a className="social-icon"  href="https://github.com/barojin/DjangoTutorial"><i className="fab fa-github" /></a>
-                        Django tutorial <span className="text-primary">[python, Django framework, sqlLite]</span>
+                        Polls Web App <span className="text-primary">[python, Django framework, Sqlite3]</span>
                     </h3>
-                    <p> Brief</p>
+                    <p> Create the web site that shows polls and vote in them and admin site provide the add, change, and
+delete polls. It contains how to handle the route, models in the Database, automated testing, views and templates,
+admin page conventions, packaging to deploy and patching with git.</p>
                 </div>
             </div>
             
@@ -82,14 +85,7 @@ render() {
               <p>Implemented a covid case tracker that pulls the number of new cases all over the world everyday from CDC website using a python script and plotted trend graph. Set up a scheduler to run the python script on EMR using Step functions daily, use the plotted graph saved on S3 to display on WordPress website using AWS Lightsail. Implemented alarms on AWS Cloudwatch once the numbers increase significantly for a certain country.</p>
             </div>
           </div>
-            
-        {/*
-        <div className="flex-grow-1">
-          <h3 className="mb-0"><span className="text-primary"></span></h3>
-          <p></p>
-        </div>
-         */}
-          
+                      
         </div>
       </section>
     </div>
