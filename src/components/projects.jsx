@@ -25,9 +25,9 @@ render() {
                         <a className="social-icon"  href="https://github.com/barojin/DjangoTutorial"><i className="fab fa-github" /></a>
                         Polls Web App <span className="text-primary">[python, Django framework, Sqlite3]</span>
                     </h3>
-                    <p> Create the web site that shows polls and vote in them and admin site provide the add, change, and
-delete polls. It contains how to handle the route, models in the Database, automated testing, views and templates,
-admin page conventions, packaging to deploy and patching with git.</p>
+                    <p> Create the web site that shows polls and vote in them and admin site provide the add, change, and delete polls.
+                        It contains how to handle the route, models in the Database, automated testing, views and templates, admin page conventions,
+                        packaging to deploy and patching with git.</p>
                 </div>
             </div>
             
