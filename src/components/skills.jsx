@@ -10,11 +10,12 @@ render() {
     <div className="resume-section-content">
       <h2 className="mb-5">Skills</h2>
       <div className="subheading mb-3">Programming Languages</div>
-        <p>Java, Python, C#, Javascript, HTML5, CSS, SQL(Oracle)</p>
+        <p><b>Proficient: Python</b></p>
+        <p>Java, C#, Javascript, HTML5, CSS, MySQL</p>
         <div className="subheading mb-3">Framework & Library</div>
-        <p>Spring, .NET, React, node.js</p>
+        <p>Django, React, .NET, Spring, node.js</p>
         <div className="subheading mb-3">Tools</div>
-        <p>Git, AWS(S3, Elastic Beanstalk), Docker, VMware</p>
+        <p>Git, AWS(EC2, Dynamodb, S3, Lambda), Docker, VMware</p>
       <ul className="list-inline dev-icons">
         <li className="list-inline-item"><i className="fab fa-java" /></li>
         <li className="list-inline-item"><i className="fab fa-python" /></li>        
