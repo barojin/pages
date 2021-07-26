@@ -31,6 +31,14 @@ render() {
                 </div>
             </div>
             
+        <div className="d-flex flex-column flex-md-row justify-content-between">
+            <div className="flex-grow-1">
+              <h3 className="mb-0"><a className="social-icon" href="https://github.com/barojin/"><i className="fab fa-github" /></a>
+                Covid Case Tracker <span className="text-primary">[AWS(Lambda, S3, Step functions, CloudWatch, Lightsail), Python]</span></h3>
+              <p> Covid Case Tracker, Implemented a covid case tracker that pulls the number of new cases all over the world everyday from CDC website and displays the plotted trend graph on WordPress website using AWS lightsail. Used AWS Lambda to run .py code and stored files in S3. Implemented AWS Cloudwatch once the numbers increase significantly for a certain country.</p>
+            </div>
+          </div>
+            
           <div className="d-flex flex-column flex-md-row justify-content-between">
             <div className="flex-grow-1">
               <h3 className="mb-0"><a className="social-icon" href="https://github.com/barojin/Microservice_Spring"><i className="fab fa-github" />
