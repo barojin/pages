@@ -14,8 +14,7 @@ export default class Experiences extends Component {
                     <div className="resume-section-content">
                     <h2 className="mb-5">Experience</h2>
         
-                    <Experience jobTitle="Software Developer" url="http://gscms.co.kr/" company="GSCMS Inc" location="Seoul, South Korea" date="Feburary 2017 - December 2018" contents={this.state.contents} />                    
-      
+                    <Experience jobTitle="Software Developer" url="http://gscms.co.kr/" company="GSCMS Corporation" location="Seoul, South Korea" date="Feburary 2017 - December 2018" contents={this.state.contents} />                          
                     </div>
                 </section>
                 <hr className="m-0" />

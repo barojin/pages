@@ -1,8 +1,17 @@
 import React, { Component } from 'react'
+import ContentList from '../utils/contentList'
 
 export default class Project extends React.Component {
     constructor(props){
         super(props);        
+        this.state = {showContent: false}
+        this.handleToggleClick = this.handleToggleClick.bind(this);
+    }    
+
+    handleToggleClick() {
+        this.setState(prevState => ({
+            showContent: !prevState.showContent
+        }));
     }
     render(){
         return (
@@ -12,7 +21,10 @@ export default class Project extends React.Component {
                         <a className="social-icon"  href={this.props.gitUrl}><i className="fab fa-github" />
                         </a> {this.props.title} <span className="text-primary">{this.props.techStack}</span>
                     </h3>
-                    <p> {this.props.content} </p>
+                    <ContentList contents={this.props.content} show={this.state.showContent} />  
+                    <button type="button" class="btn btn-dark" onClick={this.handleToggleClick}>
+                        {this.state.showContent ? '^' : '='}
+                    </button>
                 </div>
             </div>
             ); 
