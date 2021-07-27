@@ -8,20 +8,20 @@ import Nav from './components/nav'
 import Projects from './components/projects'
 
 function App() {
-  return (  
-    <div>
-         <Nav />
-        <div className="container-fluid p-0">
-          <About />
-          <Experiences />
-          <Projects />
-          <Skills />
-          <Education />
-          <Interests />
-          <Awards />
+    return (  
+        <div>
+            <Nav />
+            <div className="container-fluid p-0">
+                <About />
+                <Experiences />
+                <Projects />
+                <Awards />
+                <Skills />
+                <Education />
+                <Interests />
+            </div>
         </div>
-    </div>
-  );
+    );
 }
 
 export default App;
