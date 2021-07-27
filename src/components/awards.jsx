@@ -12,7 +12,7 @@ render() {
     <ul className="fa-ul mb-0">
       <li>
         <span className="fa-li"><i className="fas fa-trophy text-warning" /></span>
-        AWS Certified Cloud Practitioner
+        <div className="subheading">AWS Certified Cloud Practitioner</div>
       </li>
 {/*
       <li>
