@@ -1,5 +1,5 @@
 import About from './components/about'
-import Experience from './components/experience'
+import Experiences from './components/experiences'
 import Education from './components/education'
 import Skills from './components/skills'
 import Interests from './components/interests'
@@ -10,15 +10,15 @@ import Projects from './components/projects'
 function App() {
   return (  
     <div>
-         <Nav></Nav>
+         <Nav />
         <div className="container-fluid p-0">
-          <About></About>
-          <Experience></Experience>
-          <Projects></Projects>
-          <Skills></Skills>
-          <Education></Education>                  
-          <Interests></Interests>
-          <Awards></Awards>
+          <About />
+          <Experiences />
+          <Projects />
+          <Skills />
+          <Education />
+          <Interests />
+          <Awards />
         </div>
     </div>
   );

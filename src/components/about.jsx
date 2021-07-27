@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
-
+import Clock from './Clock'
 
 export default class About extends Component {
+    constructor(props) {
+        super(props);        
+    }
 
 render() {
   return (
@@ -21,7 +24,8 @@ render() {
       <div className="social-icons">
         <a className="social-icon" href="https://www.linkedin.com/in/barojin/"><i className="fab fa-linkedin-in" /></a>
         <a className="social-icon" href="https://github.com/barojin/"><i className="fab fa-github" /></a>        
-      </div>
+      </div>      
+        <Clock />
     </div>
   </section>
   <hr className="m-0" />
