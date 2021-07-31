@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pages/static/css/main.6ced140f.chunk.css",
-    "main.js": "/pages/static/js/main.a9118ea9.chunk.js",
-    "main.js.map": "/pages/static/js/main.a9118ea9.chunk.js.map",
+    "main.js": "/pages/static/js/main.a5dc7db9.chunk.js",
+    "main.js.map": "/pages/static/js/main.a5dc7db9.chunk.js.map",
     "runtime-main.js": "/pages/static/js/runtime-main.d2962377.js",
     "runtime-main.js.map": "/pages/static/js/runtime-main.d2962377.js.map",
     "static/js/2.a402bc68.chunk.js": "/pages/static/js/2.a402bc68.chunk.js",
@@ -12,12 +12,13 @@
     "index.html": "/pages/index.html",
     "static/css/main.6ced140f.chunk.css.map": "/pages/static/css/main.6ced140f.chunk.css.map",
     "static/js/2.a402bc68.chunk.js.LICENSE.txt": "/pages/static/js/2.a402bc68.chunk.js.LICENSE.txt",
+    "static/media/aws_certified_cloud_practitioner.e6fb8daf.png": "/pages/static/media/aws_certified_cloud_practitioner.e6fb8daf.png",
     "static/media/profile.57fc99ab.jpg": "/pages/static/media/profile.57fc99ab.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d2962377.js",
     "static/js/2.a402bc68.chunk.js",
     "static/css/main.6ced140f.chunk.css",
-    "static/js/main.a9118ea9.chunk.js"
+    "static/js/main.a5dc7db9.chunk.js"
   ]
 }
