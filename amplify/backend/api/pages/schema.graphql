@@ -1,0 +1,26 @@
+type Profile @model {
+  id: ID!
+  firstname: String!
+  lastname: String!
+  address: String!
+  email: String!
+  intro: String
+}
+
+type Resume @model {
+  id: ID!
+  title: String
+  contents: [String]
+  company: String
+  address: String
+  fromdate: String
+  todate: String
+  link: String
+  techstack: String
+  category: CategoryInfo!
+}
+
+type CategoryInfo{
+  category: Category
+}
+enum Category { experience project skill education interest award }
