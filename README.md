@@ -2,7 +2,7 @@
 
 ### To run the project
 ```
-npm install react react-scripts react-dom web-vitals
+npm install
 yarn start
 ```
 
