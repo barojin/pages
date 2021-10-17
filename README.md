@@ -2,7 +2,7 @@
 
 ### To run the project
 ```
-npm install
+npm i
 yarn start
 ```
 
